@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Главбух</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
+    <link rel="shortcut icon" href="images/logo/logo.png" type="image/png">
 	<link rel="stylesheet" href="css/main.css">
 
 </head>
@@ -11,16 +12,16 @@
 	//= views/header.html
 	<main class="main-content">
 		<section class="main-screen">
-			<div class="main-screen__container">
+			<div class="main-screen__container container">
 				<div class="main-screen__entry">
 				<div class="main-screen__date">21 апреля</div>
 				<h1 class="main-screen__title">Бухгалтерский марафон</h1>
 				<div class="main-screen__text">21 апреля в честь Дня Главбуха мы проводим первый в истории Бухгалтерский марафон. Ведущие эксперты по бухучету и налогам весь день будут отвечать на самые сложные рабочие вопросы.</div>
 			</div>
 			<div class="timetable">
-				<a href="#" class="timetable__link-btn"><img src="images/content/icon/list.png" alt="" class="timetable__link-img">Расписание</a>
-				<div class="timetable__container">
-					<a href="#" class="timetable__link">
+				<a href="#" class="timetable__link-btn">Расписание</a>
+				<div class="timetable__container container">
+					<a href="#" class="timetable__item-link">
 						<div class="timetable__img-block">
 							<img src="images/content/content-1.jpg" alt="" class="timetable__img">
 						</div>
@@ -30,7 +31,7 @@
 							<div class="timetable__name">Сергей Воронцов</div>
 						</div>
 					</a>
-					<a href="#" class="timetable__link">
+					<a href="#" class="timetable__item-link">
 						<div class="timetable__img-block">
 							<img src="images/content/content-2.jpg" alt="" class="timetable__img">
 						</div>
@@ -40,7 +41,7 @@
 							<div class="timetable__name">Андрей Свиридов</div>
 						</div>
 					</a>
-					<a href="#" class="timetable__link">
+					<a href="#" class="timetable__item-link">
 						<div class="timetable__img-block">
 							<img src="images/content/content-3.jpg" alt="" class="timetable__img">
 						</div>
@@ -50,7 +51,9 @@
 							<div class="timetable__name">Федор Иванов</div>
 						</div>
 					</a>
-					<a href="#" class="timetable__link">
+				</div>
+				<div class="timetable__container container">
+					<a href="#" class="timetable__item-link">
 						<div class="timetable__img-block">
 							<img src="images/content/content-3.jpg" alt="" class="timetable__img">
 						</div>
@@ -60,7 +63,7 @@
 							<div class="timetable__name">Федор Иванов</div>
 						</div>
 					</a>
-					<a href="#" class="timetable__link">
+					<a href="#" class="timetable__item-link">
 						<div class="timetable__img-block">
 							<img src="images/content/content-2.jpg" alt="" class="timetable__img">
 						</div>
@@ -70,7 +73,7 @@
 							<div class="timetable__name">Андрей Свиридов</div>
 						</div>
 					</a>
-					<a href="#" class="timetable__link">
+					<a href="#" class="timetable__item-link">
 						<div class="timetable__img-block">
 							<img src="images/content/content-1.jpg" alt="" class="timetable__img">
 						</div>
@@ -82,12 +85,14 @@
 					</a>
 				</div>
 			</div>
-			<button class="btn btn_registry">Зарегистрироваться</button>
-			<a href="#" class="link link_arrow-btn">Розыгрыш призов и подарков</a>
+			<div class="main-screen__btn-block">
+				<button class="main-screen__btn-reg btn-reg"></button>
+				<a href="#" class="main-screen__btn-link link link_arrow-btn">Розыгрыш призов и подарков</a>
+			</div>
 			</div>
 		</section>
 		<section class="contests">
-			<div class="contests__container">
+			<div class="contests__container container">
 				<div class="contests__content-left">
 					<h3 class="contests__title">Конкурсы и призы</h3>
 					<ul class="contests__prize-list">

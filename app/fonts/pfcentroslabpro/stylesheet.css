@@ -1,58 +1,58 @@
 @font-face {
 		font-family: "PFCentroSlabPro";
-		src: url("../fonts/PFCentroSlabProRegular/PFCentroSlabProRegular.eot");
-		src: url("../fonts/PFCentroSlabProRegular/PFCentroSlabProRegular.eot?#iefix")format("embedded-opentype"),
-		url("../fonts/PFCentroSlabProRegular/PFCentroSlabProRegular.woff") format("woff"),
-		url("../fonts/PFCentroSlabProRegular/PFCentroSlabProRegular.ttf") format("truetype");
+		src: url("PFCentroSlabProRegular.eot");
+		src: url("PFCentroSlabProRegular.eot?#iefix")format("embedded-opentype"),
+		url("PFCentroSlabProRegular.woff") format("woff"),
+		url("PFCentroSlabProRegular.ttf") format("truetype");
 		font-style: normal;
 		font-weight: 400;
 }
 
 @font-face {
 		font-family: "PFCentroSlabPro";
-		src: url("../fonts/PFCentroSlabProBold/PFCentroSlabProBold.eot");
-		src: url("../fonts/PFCentroSlabProBold/PFCentroSlabProBold.eot?#iefix")format("embedded-opentype"),
-		url("../fonts/PFCentroSlabProBold/PFCentroSlabProBold.woff") format("woff"),
-		url("../fonts/PFCentroSlabProBold/PFCentroSlabProBold.ttf") format("truetype");
+		src: url("PFCentroSlabProBold.eot");
+		src: url("PFCentroSlabProBold.eot?#iefix")format("embedded-opentype"),
+		url("PFCentroSlabProBold.woff") format("woff"),
+		url("PFCentroSlabProBold.ttf") format("truetype");
 		font-style: normal;
 		font-weight: 600;
 }
 
 @font-face {
 		font-family: "PFCentroSlabPro";
-		src: url("../fonts/PFCentroSlabProLigh/PFCentroSlabProLigh.eot");
-		src: url("../fonts/PFCentroSlabProLigh/PFCentroSlabProLigh.eot?#iefix")format("embedded-opentype"),
-		url("../fonts/PFCentroSlabProLigh/PFCentroSlabProLigh.woff") format("woff"),
-		url("../fonts/PFCentroSlabProLigh/PFCentroSlabProLigh.ttf") format("truetype");
+		src: url("PFCentroSlabProLigh.eot");
+		src: url("PFCentroSlabProLigh.eot?#iefix")format("embedded-opentype"),
+		url("PFCentroSlabProLigh.woff") format("woff"),
+		url("PFCentroSlabProLigh.ttf") format("truetype");
 		font-style: normal;
 		font-weight: 300;
 }
 
 @font-face {
 		font-family: "PFCentroSlabPro";
-		src: url("../fonts/PFCentroSlabProMedium/PFCentroSlabProMedium.eot");
-		src: url("../fonts/PFCentroSlabProMedium/PFCentroSlabProMedium.eot?#iefix")format("embedded-opentype"),
-		url("../fonts/PFCentroSlabProMedium/PFCentroSlabProMedium.woff") format("woff"),
-		url("../fonts/PFCentroSlabProMedium/PFCentroSlabProMedium.ttf") format("truetype");
+		src: url("PFCentroSlabProMedium.eot");
+		src: url("PFCentroSlabProMedium.eot?#iefix")format("embedded-opentype"),
+		url("PFCentroSlabProMedium.woff") format("woff"),
+		url("PFCentroSlabProMedium.ttf") format("truetype");
 		font-style: normal;
 		font-weight: 500;
 }
 
 @font-face {
 		font-family: "PFCentroSlabPro";
-		src: url("../fonts/PFCentroSlabProMediumItalic/PFCentroSlabProMediumItalic.eot");
-		src: url("../fonts/PFCentroSlabProMediumItalic/PFCentroSlabProMediumItalic.eot?#iefix")format("embedded-opentype"),
-		url("../fonts/PFCentroSlabProMediumItalic/PFCentroSlabProMediumItalic.woff") format("woff"),
-		url("../fonts/PFCentroSlabProMediumItalic/PFCentroSlabProMediumItalic.ttf") format("truetype");
+		src: url("PFCentroSlabProMediumItalic.eot");
+		src: url("PFCentroSlabProMediumItalic.eot?#iefix")format("embedded-opentype"),
+		url("PFCentroSlabProMediumItalic.woff") format("woff"),
+		url("PFCentroSlabProMediumItalic.ttf") format("truetype");
 		font-style: italic;
 		font-weight: 500;
 }
 
 @font-face {
 		font-family: "PFCentroSlabPro";
-		src: url("../fonts/PFCentroSlabProBoldItalic/PFCentroSlabProBoldItalic.eot");
-		src: url("../fonts/PFCentroSlabProBoldItalic/PFCentroSlabProBoldItalic.eot?#iefix")format("embedded-opentype"),
-		url("../fonts/PFCentroSlabProBoldItalic/PFCentroSlabProBoldItalic.woff") format("woff"),
-		url("../fonts/PFCentroSlabProBoldItalic/PFCentroSlabProBoldItalic.ttf") format("truetype");
+		src: url("PFCentroSlabProBoldItalic.eot");
+		src: url("PFCentroSlabProBoldItalic.eot?#iefix")format("embedded-opentype"),
+		url("PFCentroSlabProBoldItalic.woff") format("woff"),
+		url("PFCentroSlabProBoldItalic.ttf") format("truetype");
 		font-style: italic;
 		font-weight: 600;
