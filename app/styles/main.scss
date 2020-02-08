@@ -1,13 +1,7 @@
-/* import scripts styles */
-@import "partials/reset.scss";
-@import "partials/libs.scss";
-@import "partials/fonts.scss";
-
 /* variables colors */
-// $name-color: #color;
 
 /* variables text */
-// $main-font: "name-font";
+// $main-font: "Circe";
 
 /* variables properties */
 %d-flex-center {
@@ -16,10 +10,15 @@
 	align-items: center;
 }
 
+/* import scripts styles */
+@import "partials/reset.scss";
+@import "partials/libs.scss";
+@import "partials/fonts.scss";
+
 // body {
-// 	font: 16px/24px $main-font, 'Open Sans', sans-serif;
-// 	font-weight: 500;
-// 	color: $000;
+// 	font: 17.5px/22px $main-font, 'Open Sans', sans-serif;
+// 	font-weight: 400;
+// 	color: #000;
 // 	background: #fff;
 // }
 
