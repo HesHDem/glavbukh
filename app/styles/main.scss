@@ -43,11 +43,11 @@ $font-2: "PFCentroSlabPro";
 %transition-4 {transition: color .4s, opacity .4s, background .4s, border 4s ease-in-out;}
 %transition-5 {transition: color .5s, opacity .5s, background .5s, border 5s ease-in-out;}
 
-%lp-0.15 {letter-spacing: -0.15px;}
-%lp-0.16 {letter-spacing: -0.16px;}
-%lp-0.17 {letter-spacing: -0.17px;}
-%lp-0.18 {letter-spacing: -0.18px;}
-%lp-0.19 {letter-spacing: -0.19px;}
+%ls-0.15 {letter-spacing: -0.15px;}
+%ls-0.16 {letter-spacing: -0.16px;}
+%ls-0.17 {letter-spacing: -0.17px;}
+%ls-0.18 {letter-spacing: -0.18px;}
+%ls-0.19 {letter-spacing: -0.19px;}
 
 /* import scripts styles */
 @import "partials/reset.scss";
@@ -91,7 +91,7 @@ body {
 }
 
 .text {
-	@extend %lp-0.18;
+	@extend %ls-0.18;
 }
 
 .link {
@@ -335,7 +335,7 @@ body {
 
 	&__time {
 		margin-bottom: 15px;
-		@extend %lp-0.18;
+		@extend %ls-0.18;
 	}
 
 	&__title {
@@ -343,84 +343,187 @@ body {
 		font-size: 14.5px;
 		line-height: 17.5px;
 		text-transform: uppercase;
-		@extend %lp-0.15;
+		@extend %ls-0.15;
 	}
 
 	&__name {
 		font-size: 16.5px;
-		@extend %lp-0.17;
+		@extend %ls-0.17;
 	}
 }
 
 /* contests */
 
 .contests {
+	padding: 60px 0;
+
+	&__container {
+		@extend %flex-between;
+		
+	}
+
+	&__content-left {
+		text-align: center;
+		padding-top: 10px;
+	}
+
+	&__content-right {
+		
+	}
 
 	&_slider {
-
+		margin-bottom: 60px;
 	}
 
 	&__title {
-
+		font-family: $font-2;
+		font-size: 27.5px;
+		font-weight: 600;
+		color: #000;
+		margin-bottom: 35px;
 	}
 
 	&__prize-list {
-
+		@extend %flex;
+		flex-direction: column;
 	}
 
 	&__prize {
-
+		margin-bottom: 25px;
 	}
 
 	&__title-block {
-
+		@extend %flex-center;
 	}
 
 	&__time {
-
+		font-size: 15.5px;
+		margin-right: 12px;
+		@extend %ls-0.16;
 	}
 
 	&__name {
-
+		font-size: 16.5px;
+		font-weight: 400;
+		text-transform: uppercase;
+		@extend %ls-0.17;
 	}
 
 	&__prize-name {
-
+		font-size: 14.5px;
+		@extend %ls-0.15;
 	}
 
 	&__winner {
-
+		color: $gray-2;
+		margin-left: 5px;
 	}
 }
+
 .slider-min {
+	position: relative;
+	max-width: 500px;
+	max-height: 283px;
+	border: solid 10px $gray-light-2;
 
 	&__slide {
-
+		
 	}
 
 	&__img {
+		width: 100%;
+		height: 100%;
+	}
 
+	&__dots {
+		@extend %flex-center;
+		position: absolute;
+		bottom: -60px;
+		left: 0;
+		width: 100%;
+
+		li {
+			width: 10px;
+			height: 10px;
+			background: $gray-light-2;
+			margin: 0 8.5px;
+			border-radius: 50px;
+			cursor: pointer;
+			@extend %transition-2;
+
+			&.slick-active {
+				background: $red;
+			}
+		}
+
+		button {
+			font-size: 0;
+		}
 	}
 }
 
 /* footer */
 
 .footer {
+	@extend %flex-center;
+	background: $gray-light-2;
+	padding: 25px 0;
 
 	&__copywrite {
-
+		@extend %flex-center-c;
+		text-align: center;
 	}
 
 	&__text {
+		font-size: 14.5px;
+		font-weight: 400;
+		color: $gray;
+		margin: 0 12px;
 
+		&_line {
+			position: relative;
+
+			&::after {
+				content: '';
+				position: absolute;
+				top: 2px;
+				right: -12px;
+				width: 1px;
+				height: 18px;
+				background: $gray-2;
+				opacity: 0.5;
+			}
+		}
+	}
+
+	&__text-link {
+		color: $red;
+		@extend %transition-2;
+
+		&:hover {
+			color: $orange;
+		}
 	}
 
 	&__link-feedback {
+		font-size: 14.5px;
+		font-weight: 400;
+		color: $red;
+		margin: 0 12px;
+		@extend %transition-2;
 
+		&:hover {
+			color: $orange;
+		}
+	}
+
+	&__link-img {
+		@extend %flex-center-c;
+		margin-left: 50px;
 	}
 
 	&__img-feedback {
-
+		
 	}
 }
 
