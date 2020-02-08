@@ -78,6 +78,10 @@ body {
 .main-screen {
 	background: $gray-light-2;
 
+	&__container {
+
+	}
+
 	&__entry {
 
 	}
@@ -96,6 +100,10 @@ body {
 }
 
 .timetable {
+
+	&__container {
+		
+	}
 
 	&__link-btn {
 
