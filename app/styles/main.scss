@@ -1,7 +1,13 @@
 /* variables colors */
+$gray: #5f5b5b;
+$gray-2: #9b9b9b;
+$gray-light: #f0f0f0;
+$gray-light-2: #eeede8;
+$red: #e02222;
+$orange: #f94f33;
 
 /* variables text */
-// $main-font: "Circe";
+$main-font: "Circe";
 
 /* variables properties */
 %d-flex-center {
@@ -15,11 +21,189 @@
 @import "partials/libs.scss";
 @import "partials/fonts.scss";
 
-// body {
-// 	font: 17.5px/22px $main-font, 'Open Sans', sans-serif;
-// 	font-weight: 400;
-// 	color: #000;
-// 	background: #fff;
-// }
+body {
+	font: 17.5px/22px $main-font, 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #000;
+	background: #fff;
+}
+
+.logo {
+
+}
+
+.btn {
+
+	&_registry {
+
+	}
+}
+
+.link {
+
+	&_arrow-btn {
+
+	}
+}
+
+/* header */
+.header {
+
+	&__logo {
+
+	}
+
+	&__social {
+
+	}
+}
+
+.social-menu {
+
+	&__img {
+
+	}
+
+	&__item {
+
+	}
+
+	&__link {
+
+	}
+}
+
+/* main-screen */
+
+.main-screen {
+	background: $gray-light-2;
+
+	&__entry {
+
+	}
+
+	&__date {
+
+	}
+
+	&__title {
+
+	}
+
+	&__text {
+
+	}
+}
+
+.timetable {
+
+	&__link-btn {
+
+	}
+
+	&__link-img {
+
+	}
+
+	&__link {
+
+	}
+
+	&__img-block {
+		@extend %d-flex-center;
+		border: solid 10px #fff;
+	}
+
+	&__img {
+	}
+
+	&__text-block {
+
+	}
+
+	&__time {
+
+	}
+
+	&__title {
+
+	}
+
+	&__name {
+
+	}
+}
+
+/* contests */
+
+.contests {
+
+	&_slider {
+
+	}
+
+	&__title {
+
+	}
+
+	&__prize-list {
+
+	}
+
+	&__prize {
+
+	}
+
+	&__title-block {
+
+	}
+
+	&__time {
+
+	}
+
+	&__name {
+
+	}
+
+	&__prize-name {
+
+	}
+
+	&__winner {
+
+	}
+}
+.slider-min {
+
+	&__slide {
+
+	}
+
+	&__img {
+
+	}
+}
+
+/* footer */
+
+.footer {
+
+	&__copywrite {
+
+	}
+
+	&__text {
+
+	}
+
+	&__link-feedback {
+
+	}
+
+	&__img-feedback {
+
+	}
+}
 
 @import "partials/media.scss";
