@@ -36,8 +36,8 @@ var path = {
         fonts: 'app/fonts/**/*.*'
     },
     script: {
-    	jquery: 'node_modules/jquery/dist/jquery.min.js'
-    	// slick: 'node_modules/slick-carousel/slick/slick.min.js'
+    	jquery: 'node_modules/jquery/dist/jquery.min.js',
+    	slick: 'node_modules/slick-carousel/slick/slick.min.js'
     },
     clean: 'dist/**'
 };
@@ -93,8 +93,8 @@ gulp.task('js:build', function () {
 
 gulp.task('scripts', function() {
 	return gulp.src([
-		path.script.jquery
-		// path.script.slick
+		path.script.jquery,
+		path.script.slick
 		])
 		.pipe(concat('libs.min.js'))
 		.pipe(gulp.dest(path.dist.js))
