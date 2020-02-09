@@ -131,6 +131,8 @@ body {
 	@extend %flex-between-c;
 	padding: 22px 44px 0;
 	background: $gray-light-2;
+	box-shadow: inset 200px 0 300px -250px rgba(0,0,0,.5),
+				inset -200px 0 300px -280px rgba(0,0,0,.5);
 
 	&__logo {
 
@@ -169,8 +171,31 @@ body {
 /* main-screen */
 
 .main-screen {
+	position: relative;
 	background: $gray-light-2;
 	padding-bottom: 70px;
+	box-shadow: inset 200px 0 300px -250px rgba(0,0,0,.5),
+				inset -200px 0 300px -280px rgba(0,0,0,.5);
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 50px;
+		left: 0;
+		background: url(../images/content/left-objects.png) no-repeat center;
+		width: 233px;
+		height: 796px;
+	}
+
+	&::after {
+		content: '';
+		position: absolute;
+		top: 50px;
+		right: 0;
+		background: url(../images/content/right-objects.png) no-repeat center;
+		width: 239px;
+		height: 1017px;
+	} 
 
 	&__container {
 		text-align: center;
@@ -355,7 +380,7 @@ body {
 /* contests */
 
 .contests {
-	padding: 60px 0;
+	padding: 60px 0 45px;
 
 	&__container {
 		@extend %flex-between;
@@ -427,7 +452,9 @@ body {
 	border: solid 10px $gray-light-2;
 
 	&__slide {
-		
+		max-width: 500px;
+		max-height: 263px;
+		overflow: hidden;
 	}
 
 	&__img {

@@ -1,0 +1,58 @@
+@font-face {
+		font-family: "PFCentroSlabPro";
+		src: url("PFCentroSlabProRegular.eot");
+		src: url("PFCentroSlabProRegular.eot?#iefix")format("embedded-opentype"),
+		url("PFCentroSlabProRegular.woff") format("woff"),
+		url("PFCentroSlabProRegular.ttf") format("truetype");
+		font-style: normal;
+		font-weight: 400;
+}
+
+@font-face {
+		font-family: "PFCentroSlabPro";
+		src: url("PFCentroSlabProBold.eot");
+		src: url("PFCentroSlabProBold.eot?#iefix")format("embedded-opentype"),
+		url("PFCentroSlabProBold.woff") format("woff"),
+		url("PFCentroSlabProBold.ttf") format("truetype");
+		font-style: normal;
+		font-weight: 600;
+}
+
+@font-face {
+		font-family: "PFCentroSlabPro";
+		src: url("PFCentroSlabProLigh.eot");
+		src: url("PFCentroSlabProLigh.eot?#iefix")format("embedded-opentype"),
+		url("PFCentroSlabProLigh.woff") format("woff"),
+		url("PFCentroSlabProLigh.ttf") format("truetype");
+		font-style: normal;
+		font-weight: 300;
+}
+
+@font-face {
+		font-family: "PFCentroSlabPro";
+		src: url("PFCentroSlabProMedium.eot");
+		src: url("PFCentroSlabProMedium.eot?#iefix")format("embedded-opentype"),
+		url("PFCentroSlabProMedium.woff") format("woff"),
+		url("PFCentroSlabProMedium.ttf") format("truetype");
+		font-style: normal;
+		font-weight: 500;
+}
+
+@font-face {
+		font-family: "PFCentroSlabPro";
+		src: url("PFCentroSlabProMediumItalic.eot");
+		src: url("PFCentroSlabProMediumItalic.eot?#iefix")format("embedded-opentype"),
+		url("PFCentroSlabProMediumItalic.woff") format("woff"),
+		url("PFCentroSlabProMediumItalic.ttf") format("truetype");
+		font-style: italic;
+		font-weight: 500;
+}
+
+@font-face {
+		font-family: "PFCentroSlabPro";
+		src: url("PFCentroSlabProBoldItalic.eot");
+		src: url("PFCentroSlabProBoldItalic.eot?#iefix")format("embedded-opentype"),
+		url("PFCentroSlabProBoldItalic.woff") format("woff"),
+		url("PFCentroSlabProBoldItalic.ttf") format("truetype");
+		font-style: italic;
+		font-weight: 600;
