@@ -36,6 +36,7 @@ var path = {
         fonts: 'app/fonts/**/*.*'
     },
     script: {
+        oldbrowser: 'node_modules/outdated-browser-rework/dist/outdated-browser-rework.min.js',
     	jquery: 'node_modules/jquery/dist/jquery.min.js',
     	slick: 'node_modules/slick-carousel/slick/slick.min.js'
     },
@@ -93,6 +94,7 @@ gulp.task('js:build', function () {
 
 gulp.task('scripts', function() {
 	return gulp.src([
+        path.script.oldbrowser,
 		path.script.jquery,
 		path.script.slick
 		])

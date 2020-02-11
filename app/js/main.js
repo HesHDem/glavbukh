@@ -1,9 +1,13 @@
 $(function() {
+	outdatedBrowserRework({
+		language: 'ru'
+	});
+
 	$('.slider-min').slick({
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		speed: 500,
-		// autoplay: true,
+		autoplay: true,
 		autoplaySpeed: 3000,
 		infinite: true,
 		swipe: false,
